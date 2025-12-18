@@ -1,14 +1,30 @@
-* {
+body {
+  background: #0b0b0b;
+  color: #eaeaea;
+  font-family: monospace;
+  line-height: 1.6;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  background: #0f1115;
-  color: #e6e6e6;
-  font-family: Inter, system-ui, Arial, sans-serif;
-  line-height: 1.7;
+main {
+  max-width: 800px;
+  padding: 40px 20px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #9aa0aa;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 a {
@@ -16,101 +32,20 @@ a {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 8%;
+a:hover {
+  text-decoration: underline;
 }
 
-nav ul {
-  display: flex;
-  gap: 25px;
-  list-style: none;
+hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 30px 0;
 }
 
-.logo {
-  font-weight: 600;
-  font-size: 20px;
+ul {
+  margin-left: 20px;
 }
 
-.hero {
-  padding: 120px 8% 100px;
-  max-width: 900px;
-}
-
-.hero h1 {
-  font-size: 48px;
-  font-weight: 600;
-}
-
-.subtitle {
-  margin-top: 10px;
-  color: #b5b5b5;
-}
-
-.hero-buttons {
-  margin-top: 30px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 22px;
-  border: 1px solid #6ee7b7;
-  color: #6ee7b7;
-  margin-right: 12px;
-  border-radius: 4px;
-}
-
-.btn.secondary {
-  border-color: #444;
-  color: #ccc;
-}
-
-section {
-  padding: 80px 8%;
-  max-width: 900px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 28px;
-}
-
-.card {
-  background: #151821;
-  padding: 25px;
-  margin-bottom: 25px;
-  border-radius: 6px;
-}
-
-.card span {
-  display: block;
-  color: #9aa0aa;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-}
-
-.skills-grid h4 {
+li {
   margin-bottom: 8px;
-  color: #6ee7b7;
-}
-
-.clean-list {
-  list-style: none;
-}
-
-.clean-list li {
-  margin-bottom: 15px;
-}
-
-footer {
-  padding: 40px 8%;
-  color: #888;
 }
