@@ -1,0 +1,5 @@
+Contact: mailto:ankit@ankitsingh.site
+Contact: https://ankitsingh.site
+Preferred-Languages: en, hi
+Canonical: https://ankitsingh.site/.well-known/security.txt
+Expires: 2026-12-31
