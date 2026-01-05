@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /.git/
+Disallow: /backup/
+Disallow: /tmp/
