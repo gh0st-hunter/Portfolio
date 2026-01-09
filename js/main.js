@@ -291,7 +291,7 @@ function updateThemeIcon(theme) {
 
 // Typing Effect
 function initTypingEffect() {
-    const text = "Cybersecurity Specialist & Bug Bounty Hunter";
+    const text = "Security Researcher & Bug Bounty Hunter";
     const typingElement = document.querySelector('.hero-subtitle');
     
     if (typingElement) {
@@ -357,4 +357,5 @@ if (typeof module !== 'undefined' && module.exports) {
         showNotification,
         debounce
     };
+
 }
